@@ -19,13 +19,13 @@ Nếu âm đó là duy nhất hiện ra UNIQUE, nếu tồn tại thì thay th�
 VD:
 Input:
 > Ab minor
-D# major
-G minor
+> D# major
+> G minor
 
 Output:
 > Case 1: G# minor
-Case 2: Eb major
-Case 3: UNIQUE
+> Case 2: Eb major
+> Case 3: UNIQUE
 
 # Lời giải
 ---
