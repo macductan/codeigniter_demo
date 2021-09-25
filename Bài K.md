@@ -36,43 +36,45 @@ Với mỗi input kiểm tra xem nốt âm có tồn tại trong `map<string,str
 
 # Code
 ---
-    #include<bits/stdc++.h>
-    using namespace std;
-    
-    map<string,string> thanham;
-    char doixung[15];
-    
-    void sov(){
-        thanham["A#"] = "Bb";
-        thanham["Bb"] = "A#";
-        thanham["C#"] = "Db";
-        thanham["Db"] = "C#";
-        thanham["D#"] = "Eb";
-        thanham["Eb"] = "D#";
-        thanham["F#"] = "Gb";
-        thanham["Gb"] = "F#";
-        thanham["G#"] = "Ab";
-        thanham["Ab"] = "G#";
-    
-        string s1, s2;
-        int i=1;
-        while(cin >> s1 >> s2){
-            cout << "Case " << i++ << ": ";
-    
-            if(thanham.find(s1) != thanham.end()){
-                cout << thanham[s1] << " " << s2;
-            }
-            else{
-                cout << "UNIQUE";
-            }
-    
-            cout << endl;
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+map<string,string> thanham;
+char doixung[15];
+
+void sov(){
+    thanham["A#"] = "Bb";
+    thanham["Bb"] = "A#";
+    thanham["C#"] = "Db";
+    thanham["Db"] = "C#";
+    thanham["D#"] = "Eb";
+    thanham["Eb"] = "D#";
+    thanham["F#"] = "Gb";
+    thanham["Gb"] = "F#";
+    thanham["G#"] = "Ab";
+    thanham["Ab"] = "G#";
+
+    string s1, s2;
+    int i=1;
+    while(cin >> s1 >> s2){
+        cout << "Case " << i++ << ": ";
+
+        if(thanham.find(s1) != thanham.end()){
+            cout << thanham[s1] << " " << s2;
         }
+        else{
+            cout << "UNIQUE";
+        }
+
+        cout << endl;
     }
-    
-    int main(){
-        ios::sync_with_stdio(0);
-        cin.tie(0); cout.tie(0);
-    
-        sov();
-    }
+}
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+
+    sov();
+}
+```
