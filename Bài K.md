@@ -1,9 +1,7 @@
 # Đề bài
----
 https://open.kattis.com/contests/e9659r/problems/chopin
 
 # Tóm tát đề bài
----
 Có 17 nốt âm trong đó có 7 nốt âm là duy nhất (UNIQUE) và các cặp nốt âm có thể thay thế cho nhau. Các nốt âm chia thành 2 loại âm sắc major và minor. Các nốt âm loại minor có thể thay thế bằng các nốt âm minor khác bằng nó (nếu tồn tại) và tương tự với major.
 
 - Các âm duy nhất: A, B, C, D, E, G
@@ -13,7 +11,6 @@ VD: A# = Bb. Nếu có A# minor xuất hiện thì thay bằng Bb và ngược l
 => A# major = Bb major và A# minor = Bb minor
 
 # Yêu cầu đề bài
----
 Nếu âm đó là duy nhất hiện ra UNIQUE, nếu tồn tại thì thay thế bằng âm tương đương.
 
 VD:
@@ -28,14 +25,12 @@ Output:
 > - Case 3: UNIQUE
 
 # Lời giải
----
 Tạo một `map<string,string>` với `key` là phần tử khôgn phải duy nhất (có phần tử thay thế được), `value` là phần tử thay thế.
 Với mỗi input kiểm tra xem nốt âm có tồn tại trong `map<string,string>`.
 - Nếu tồn tại: Hiện ra âm thay thế với âm sắ c(major hoặc minor) tương ứng.
 - Nếu không tồn tại hiện ra UNIQUE.
 
 # Code
----
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
