@@ -18,9 +18,9 @@ Nếu âm đó là duy nhất hiện ra UNIQUE, nếu tồn tại thì thay th�
 
 VD:
 Input:
-> Ab minor
-> D# major
-> G minor
+> - Ab minor
+> - D# major
+> - G minor
 
 Output:
 > Case 1: G# minor
