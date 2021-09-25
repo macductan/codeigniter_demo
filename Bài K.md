@@ -23,9 +23,9 @@ Input:
 > - G minor
 
 Output:
-> Case 1: G# minor
-> Case 2: Eb major
-> Case 3: UNIQUE
+> - Case 1: G# minor
+> - Case 2: Eb major
+> - Case 3: UNIQUE
 
 # Lời giải
 ---
