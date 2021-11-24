@@ -6,4 +6,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 //Incomplete
-$route['upload_img_ajax'] = 'Cupload_img_ajax';
+$route['photo_viewer'] = 'Cphoto_viewer';
