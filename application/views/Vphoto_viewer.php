@@ -8,10 +8,10 @@
     <title>Document</title>
 
     <!-- Bootstrap -->
-    <link href="plugins/support/photo_viewer/docs.css">
+    <!-- <link href="plugins/support/photo_viewer/docs.css"> -->
     <link href="plugins/support/photo_viewer/photoviewer.css" rel="stylesheet">
-    <link href="plugins/support/photo_viewer/snack.css" rel="stylesheet">
-    <link href="plugins/support/photo_viewer/snack-helper.css" rel="stylesheet">
+    <!-- <link href="plugins/support/photo_viewer/snack.css" rel="stylesheet"> -->
+    <!-- <link href="plugins/support/photo_viewer/snack-helper.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     </a>
 
     <script src="plugins/support/photo_viewer/jquery.min.js"></script>
-    <script src="plugins/support/photo_viewer/prettify.min.js"></script>
+    <!-- <script src="plugins/support/photo_viewer/prettify.min.js"></script> -->
     <script src="plugins/support/photo_viewer/photoviewer.js"></script>
 
     <script>
